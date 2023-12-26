@@ -2,6 +2,8 @@ FROM ubuntu:20.04
 
 LABEL Description="This image provides a base PWA development environment for React, and may be used to run tests."
 
+ENV DEBIAN_FRONTEND=noninteractive
+
 # set default build arguments
 ARG NODE_VERSION=18
 
