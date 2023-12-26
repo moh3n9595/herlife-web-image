@@ -19,4 +19,4 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: moh3n95/herlife-web:1.0.0
+          tags: moh3n95/herlife-web:latest
